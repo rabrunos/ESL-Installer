@@ -1,6 +1,21 @@
 # ESL-Installer
 This is an installer for [Ozzfest's Easy Solo Lobby](https://www.unknowncheats.me/forum/red-dead-redemption-2-a/412902-100-easy-solo-lobby.html)
 
+### Functions
+- Checks if Red Dead Online is running
+- Checks if the Installer is in the correct folder
+- Auto detects if it needs installation or uninstallation
+- Dialog window to select folder
+- Checks if the chosen folder is the correct folder
+- Option to launch the game automatically after installation
+
+There is also a function that I created and named **Lobby Key**, this function does the same as what [this](https://www.unknowncheats.me/forum/2811009-post176.html) topic shows
+
+The **Lobby Key** function does the following
+- Allows you to choose the Lobby Key during installation
+- Checks if there is already a Lobby Key installed
+- Checks if there is an ESL installation without the Lobby Key
+
 ### How to use?
  - Download [Easy Solo Lobby](https://www.unknowncheats.me/forum/red-dead-redemption-2-a/412902-100-easy-solo-lobby.html)
  - Extract the x64 folder to a folder of your choice.
