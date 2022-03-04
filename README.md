@@ -22,12 +22,15 @@ The **Lobby Key** function does the following
  - Download the installer [here](https://github.com/faelBrunnoS/ESL-Installer/releases/download/1.1/ESL_Installer.bat) *(If you want other versions click [here](https://github.com/faelBrunnoS/ESL-Installer/releases))*
  - Move the installer into the folder where you extracted the x64 folder
 
-**The folder structure will look like this:**
-
+**The folder structure will look like this:**  
 ![tutorial](https://user-images.githubusercontent.com/83606488/156765494-2d571f5b-07bb-4604-a73f-89e8af905ea3.gif)
 - Then launch the Installer and follow the instructions in it.
 ### Translate
 If you want to translate to your language, save [this](https://gist.github.com/faelBrunnoS/851308ce8fc947d8f8b67392983618cd) file, translate it and then create a [Gist](https://gist.github.com/) with the translation and send me the link.
+
+I'm Brazilian and I speak Portuguese, I understand something in English!  
+But the installer was translated by Google Translate  
+If you think any term or phrase fits better with what was written, feel free to send me the translated file above.
 
 ### Credits
 Thanks to [Ozzfest](https://www.unknowncheats.me/forum/members/3156984.html) for creating [Easy Solo Lobby](https://www.unknowncheats.me/forum/red-dead-redemption-2-a/412902-100-easy-solo-lobby.html)
