@@ -372,14 +372,14 @@ IF /i "%v.keyConfirm%" NEQ "%yes%" GOTO SETLOBBYKEY
 ECHO %v.setKey%> lobby.key
 
 :: copy files to red dead online folder
-del %v.sourceFolder%\x64\boot_launcher_flow.ymt
-del %v.sourceFolder%\x64\data\startup.meta
-copy x64\boot_launcher_flow.ymt %v.sourceFolder%\x64\boot_launcher_flow.ymt
-copy x64\data\startup.meta %v.sourceFolder%\x64\data\startup.meta
+del "%v.sourceFolder%\x64\boot_launcher_flow.ymt"
+del "%v.sourceFolder%\x64\data\startup.meta"
+copy x64\boot_launcher_flow.ymt "%v.sourceFolder%\x64\boot_launcher_flow.ymt"
+copy x64\data\startup.meta "%v.sourceFolder%\x64\data\startup.meta"
 
 :: write lobby key to files
-ECHO  %v.setKey%>> %v.sourceFolder%\x64\boot_launcher_flow.ymt
-ECHO  %v.setKey%>> %v.sourceFolder%\x64\data\startup.meta
+ECHO  %v.setKey%>> "%v.sourceFolder%\x64\boot_launcher_flow.ymt"
+ECHO  %v.setKey%>> "%v.sourceFolder%\x64\data\startup.meta"
 GOTO STARTRDO
 :: ==================================================
 
@@ -408,14 +408,14 @@ ECHO:
 IF /i "%v.keyChange%" NEQ "%yes%" GOTO SETLOBBYKEY
 
 :: copy files to red dead online folder
-del %v.sourceFolder%\x64\boot_launcher_flow.ymt
-del %v.sourceFolder%\x64\data\startup.meta
-copy x64\boot_launcher_flow.ymt %v.sourceFolder%\x64\boot_launcher_flow.ymt
-copy x64\data\startup.meta %v.sourceFolder%\x64\data\startup.meta
+del "%v.sourceFolder%\x64\boot_launcher_flow.ymt"
+del "%v.sourceFolder%\x64\data\startup.meta"
+copy x64\boot_launcher_flow.ymt "%v.sourceFolder%\x64\boot_launcher_flow.ymt"
+copy x64\data\startup.meta "%v.sourceFolder%\x64\data\startup.meta"
 
 :: write lobby key to files
-ECHO  %v.lobbyKey%>> %v.sourceFolder%\x64\boot_launcher_flow.ymt
-ECHO  %v.lobbyKey%>> %v.sourceFolder%\x64\data\startup.meta
+ECHO  %v.lobbyKey%>> "%v.sourceFolder%\x64\boot_launcher_flow.ymt"
+ECHO  %v.lobbyKey%>> "%v.sourceFolder%\x64\data\startup.meta"
 :: ==================================================
 
 
@@ -477,8 +477,8 @@ ECHO:
 SET /p "uninstall=%confirm%"
 IF /i "%uninstall%" NEQ "%yes%" GOTO CANCELUNINSTALL
 
-del %v.sourceFolder%\x64\boot_launcher_flow.ymt
-del %v.sourceFolder%\x64\data\startup.meta
+del "%v.sourceFolder%\x64\boot_launcher_flow.ymt"
+del "%v.sourceFolder%\x64\data\startup.meta"
 :: ==================================================
 
 
