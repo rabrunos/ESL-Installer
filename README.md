@@ -18,7 +18,7 @@ The **Lobby Key** function does the following
 ### How to use?
  - Download [Easy Solo Lobby](https://www.unknowncheats.me/forum/red-dead-redemption-2-a/412902-100-easy-solo-lobby.html)
  - Extract the x64 folder to a folder of your choice.
- - Download the installer [here](https://github.com/faelBrunnoS/ESL-Installer/releases/download/1.1/ESL_Installer.bat) *(If you want other versions click [here](https://github.com/faelBrunnoS/ESL-Installer/releases))*
+ - Download the installer [here](https://github.com/faelBrunnoS/ESL-Installer/releases/download/1.2/ESL_Installer.bat) *(If you want other versions click [here](https://github.com/faelBrunnoS/ESL-Installer/releases))*
  - Move the installer into the folder where you extracted the x64 folder
 
 **The folder structure will look like this:**  
