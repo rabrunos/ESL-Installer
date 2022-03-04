@@ -9,8 +9,7 @@ This is an installer for [Ozzfest's Easy Solo Lobby](https://www.unknowncheats.m
 - Checks if the chosen folder is the correct folder
 - Option to launch the game automatically after installation
 
-There is also a function that I created and named **Lobby Key**, this function does the same as what [this](https://www.unknowncheats.me/forum/2811009-post176.html) topic shows
-
+There is also a function that I created and named **Lobby Key**, this function does the same as what [this](https://www.unknowncheats.me/forum/2811009-post176.html) topic shows  
 The **Lobby Key** function does the following
 - Allows you to choose the Lobby Key during installation
 - Checks if there is already a Lobby Key installed
