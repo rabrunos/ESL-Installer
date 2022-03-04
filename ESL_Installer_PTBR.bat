@@ -434,7 +434,7 @@ ECHO %l.startRedDead%
 ECHO:
 SET /p "v.startRedDead=%confirm%"
 IF /i "%v.startRedDead%" NEQ "%yes%" GOTO CLOSESETUP
-start %v.sourceFolder%\PlayRDR2.exe
+start "" "%v.sourceFolder%\PlayRDR2.exe"
 ECHO:
 	FOR /l %%# IN (1,2,!size!) DO IF "!l.startingRedDead:~%size%,1!" == "" SET "l.startingRedDead= !l.startingRedDead! "
 	SET l.startingRedDead=!l.startingRedDead:~1,%size%!& ECHO(!l.startingRedDead!
