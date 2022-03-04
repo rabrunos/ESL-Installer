@@ -1,5 +1,6 @@
 # ESL-Installer
-This is an installer for [Ozzfest's Easy Solo Lobby](https://www.unknowncheats.me/forum/red-dead-redemption-2-a/412902-100-easy-solo-lobby.html)
+This is an installer for [Ozzfest's Easy Solo Lobby](https://www.unknowncheats.me/forum/red-dead-redemption-2-a/412902-100-easy-solo-lobby.html)  
+Also [Easy Solo Lobby Installer](https://www.unknowncheats.me/forum/red-dead-redemption-2-a/491745-easy-solo-tool-installer.html) in Unknown Cheats
 
 ### Functions
 - Checks if Red Dead Online is running
